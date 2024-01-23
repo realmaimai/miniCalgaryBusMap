@@ -63,8 +63,20 @@ async function logBuses() {
     // TODO: convert unix timestamp to date time
     const payloadUpdateTimestamp = payload.header.timestamp;
     const busesInfo = payload.entity;
-
+    console.log(typeof payload);
+    console.log(typeof busesInfo);
     console.log(busesInfo);
+
+    busesInfo.forEach((hashMap, index) => {
+        console.log(`HashMap #${index + 1}: `)
+
+        for (const key in hashMap) {
+            if (hashMap.hasOwnProperty(key)) {
+                const value = hashMap[key];
+                console.log(`key: ${key}, value: ${value}`);
+            }
+        }
+    })
 }
 
 function getBusPosition() {
@@ -76,7 +88,7 @@ function getBusTrip() {
 }
 
 function getBusId() {
-    
+
 }
 
 
