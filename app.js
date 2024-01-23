@@ -21,12 +21,63 @@ const map = new mapboxgl.Map({
             paint: {
                 // 'line-blur': 5,
                 'line-color': [
-                    'match',
-                    ['get', 'route_short_name'],
-                    '68',
-                    'red',
-                    'steelblue'
+                    'match', // matches some scenarios
+                    ['get', 'route_short_name'], // get the value of geoJson
+                    '68', // if route_short_name == 68
+                    'red', // goes red 
+                    'steelblue' // default is steelblue
                 ]
             }
         })
+
+        map.on('click', (e) => {
+            const features = map.queryRenderedFeatures(e.point, {
+                layers: ['calgary-transit-routes-line']
+            });
+
+            console.log(features);
+        })
     })
+
+
+    // fetch("http://localhost:8080/", {
+    //     method: "POST",
+    // })
+    // .then(response => console.log(response))
+    // .catch(error =>console.error(error));
+
+async function logBuses() {
+    const response = await fetch('http://localhost:8080', {
+        method: "POST",
+        headers: {
+            "content-type": 'application/json'
+        },
+    })
+
+    const responseData = await response.json();
+    if (responseData.code != 1) {
+        console.log("not getting any data from server")
+    }
+
+    const payload = JSON.parse(responseData.data);
+    // TODO: convert unix timestamp to date time
+    const payloadUpdateTimestamp = payload.header.timestamp;
+    const busesInfo = payload.entity;
+
+    console.log(busesInfo);
+}
+
+function getBusPosition() {
+
+}
+
+function getBusTrip() {
+
+}
+
+function getBusId() {
+    
+}
+
+
+logBuses();
