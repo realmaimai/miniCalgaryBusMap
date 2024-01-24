@@ -1,0 +1,4385 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05757,
+                    51.016087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98495,
+                    51.07137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.04457,
+                    51.113552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.091644,
+                    51.13795
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10598,
+                    51.066868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.1798,
+                    51.080635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.045,
+                    51.110737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98207,
+                    51.07472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.245705,
+                    51.12386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.97511,
+                    51.108643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.2169,
+                    51.10471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06104,
+                    51.144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18753,
+                    51.044395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.15892,
+                    51.01807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.101494,
+                    51.13211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.93662,
+                    51.125103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18451,
+                    51.03787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.24214,
+                    51.114628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.191055,
+                    51.13985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.078896,
+                    51.072487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16013,
+                    51.07692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.069115,
+                    51.156803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14396,
+                    51.05229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10051,
+                    51.064877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.965385,
+                    51.03787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.999016,
+                    51.01905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.970116,
+                    51.03644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.969864,
+                    51.041435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13226,
+                    51.086685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98139,
+                    51.086502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9352,
+                    51.09
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98335,
+                    51.086918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.085175,
+                    51.088844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94135,
+                    51.051945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.97546,
+                    51.063484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94064,
+                    51.052376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.981995,
+                    51.058952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95059,
+                    51.05715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98148,
+                    51.051884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98074,
+                    51.037678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.93137,
+                    51.0526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07132,
+                    50.996437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95083,
+                    50.994194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05195,
+                    50.937378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.069466,
+                    51.04458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.09093,
+                    51.03776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.1605,
+                    51.01881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08178,
+                    51.0429
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.109314,
+                    51.008728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11705,
+                    51.00512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.102875,
+                    50.956078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07822,
+                    50.964085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13673,
+                    51.00512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.087395,
+                    51.04531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07451,
+                    50.957676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.095474,
+                    50.9723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13238,
+                    50.937626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.01959,
+                    50.939877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08742,
+                    50.979626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0315,
+                    50.98718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14114,
+                    51.018803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.068855,
+                    50.960644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12289,
+                    50.96141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06042,
+                    51.047337
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.021484,
+                    50.995277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0309,
+                    51.024994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0077,
+                    50.92261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.023605,
+                    50.913353
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.1526,
+                    51.123035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.158676,
+                    51.10391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.145515,
+                    51.14101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.144806,
+                    51.123234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.17882,
+                    51.135136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14323,
+                    51.102726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13212,
+                    51.0945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:56",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.17913,
+                    51.123894
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08472,
+                    50.960136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06405,
+                    50.997704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08105,
+                    50.896553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08244,
+                    50.926678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05377,
+                    50.972145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18291,
+                    51.103645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.15921,
+                    51.103683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.23407,
+                    51.14882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.23437,
+                    51.135086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:38",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.23165,
+                    51.14791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.19809,
+                    51.12808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.01205,
+                    51.005753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.068985,
+                    51.047626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.00155,
+                    50.97262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.942566,
+                    50.891384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:20",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95828,
+                    50.928818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14755,
+                    51.072895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14159,
+                    51.10397
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06855,
+                    51.15686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14887,
+                    51.07716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.14087,
+                    51.10461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08325,
+                    50.994102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11507,
+                    51.042393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12571,
+                    51.011234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:56",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12922,
+                    51.06826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12692,
+                    51.097935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08564,
+                    51.15306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05394,
+                    51.160793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.191734,
+                    51.13011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.189705,
+                    51.12411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.088615,
+                    51.133453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.081215,
+                    51.010944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.064125,
+                    51.11292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08147,
+                    51.0021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06227,
+                    51.089203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06256,
+                    51.056892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08311,
+                    50.987793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06547,
+                    51.11405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06256,
+                    51.05647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06244,
+                    51.06686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0679,
+                    51.15717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.97548,
+                    50.93211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.00083,
+                    50.953194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9936,
+                    50.941235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.00099,
+                    50.95327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11813,
+                    51.055893
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11837,
+                    51.0525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.951706,
+                    51.08531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9854,
+                    51.08872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98148,
+                    51.085403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10245,
+                    51.070553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12934,
+                    51.082027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.038704,
+                    51.042637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.02708,
+                    51.038383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.911194,
+                    51.040752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.15088,
+                    51.162693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.15864,
+                    51.104244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.2095,
+                    51.12312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.15892,
+                    51.103428
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08162,
+                    51.038876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.15091,
+                    51.012493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0718,
+                    51.042595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06394,
+                    51.04841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:36",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12938,
+                    51.083412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:16:32",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.97993,
+                    51.06626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08277,
+                    51.067127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94661,
+                    51.11382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.112755,
+                    51.06698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.02003,
+                    51.146526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.03253,
+                    51.081177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.927185,
+                    51.11747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94706,
+                    51.110645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.96976,
+                    51.10481
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94954,
+                    50.88142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95778,
+                    50.937077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94661,
+                    51.11401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06982,
+                    50.898693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:27",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9657,
+                    50.88757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95692,
+                    50.877136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.086395,
+                    51.037853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12402,
+                    51.037785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06256,
+                    51.052303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07125,
+                    51.123318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.064545,
+                    51.04842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07162,
+                    51.102127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05783,
+                    51.04902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.063705,
+                    50.992245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95309,
+                    50.91332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95566,
+                    51.05276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.946846,
+                    51.117737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95823,
+                    50.979244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94431,
+                    50.899467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07004,
+                    50.910576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07166,
+                    50.89026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06574,
+                    50.903828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.09752,
+                    50.920803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06688,
+                    50.907017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06769,
+                    50.907845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11172,
+                    50.911026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.92946,
+                    51.127518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:56",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.93695,
+                    51.11745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 19:59:24",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95819,
+                    50.91282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06574,
+                    50.903828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.09837,
+                    50.902885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.04254,
+                    50.90662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94818,
+                    50.88202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06769,
+                    50.898453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06645,
+                    51.044727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16068,
+                    51.018017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.02838,
+                    51.154285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.021385,
+                    51.16617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.02121,
+                    51.166218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0474,
+                    51.042236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98952,
+                    51.075817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16602,
+                    51.104385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.03671,
+                    51.05921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.152084,
+                    51.081387
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06162,
+                    51.066803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13626,
+                    51.087585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16562,
+                    51.07533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.03983,
+                    50.978977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.17175,
+                    51.042236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.19638,
+                    51.018402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.2701,
+                    51.09247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13268,
+                    51.08166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18899,
+                    51.08151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.19264,
+                    51.078785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.010765,
+                    51.13273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0624,
+                    51.107418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06339,
+                    51.1416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.09456,
+                    51.08907
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06225,
+                    51.047512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05623,
+                    51.113525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.053734,
+                    51.09728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08577,
+                    51.104027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95857,
+                    51.09651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.04748,
+                    51.042236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13251,
+                    51.16137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10097,
+                    51.159443
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10769,
+                    51.17331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07877,
+                    51.08866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.044174,
+                    50.98699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05851,
+                    50.963642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9585,
+                    51.010567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.09013,
+                    51.18365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.12075,
+                    51.008778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.118225,
+                    51.009117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.065994,
+                    51.048294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11782,
+                    50.93667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95865,
+                    51.134953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13977,
+                    51.150875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.13417,
+                    51.08729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16053,
+                    51.171112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.96219,
+                    51.167843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.95204,
+                    51.156193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94814,
+                    51.125153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.96997,
+                    51.131145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.067505,
+                    51.156628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98164,
+                    51.137585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.96981,
+                    51.132484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.028015,
+                    51.15581
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:06",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.948555,
+                    51.125553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.016945,
+                    51.16516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9783,
+                    51.071495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98139,
+                    51.086327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.063225,
+                    51.001385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.03993,
+                    50.991367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.99874,
+                    50.97738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.98177,
+                    51.02982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.00548,
+                    50.98507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.97497,
+                    51.10874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.959045,
+                    51.09147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.981514,
+                    51.041245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11809,
+                    51.029617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07094,
+                    51.12291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:57",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11961,
+                    51.01452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.095566,
+                    50.980286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.11686,
+                    51.08921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10878,
+                    51.087467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07384,
+                    51.046043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.03838,
+                    51.0652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.058235,
+                    51.032352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.103294,
+                    51.042595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.03675,
+                    51.049194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.127174,
+                    51.07657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07198,
+                    51.042652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.035545,
+                    50.87571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:04",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.06315,
+                    50.904636
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:11",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.234436,
+                    51.134884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.10886,
+                    51.173054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.17324,
+                    51.0801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.99607,
+                    51.037144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.944214,
+                    51.04536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16499,
+                    51.075428
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.97658,
+                    51.037834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.018814,
+                    51.037376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:02",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.09544,
+                    51.052494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.062706,
+                    51.04752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:05",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.94848,
+                    51.124737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.969894,
+                    51.127087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18844,
+                    51.037693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.211,
+                    51.05445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0212,
+                    51.16571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18327,
+                    51.05046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:00",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.975136,
+                    51.108727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05517,
+                    50.94848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:08",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.045395,
+                    51.04175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.045845,
+                    51.084736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:59",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.997215,
+                    50.952236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:10",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.142044,
+                    51.03781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:03",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.16367,
+                    51.05229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.05552,
+                    51.048378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:01",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.041725,
+                    51.04337
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:17:58",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.18847,
+                    51.03551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:09",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.19864,
+                    51.030567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "update_time": "2024-01-19 20:18:07",
+                "route_short_name": "",
+                "route_long_name": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.042725,
+                    51.082645
+                ]
+            }
+        }
+    ]
+}
