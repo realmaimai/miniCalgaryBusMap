@@ -40,11 +40,6 @@ const map = new mapboxgl.Map({
     })
 
 
-    // fetch("http://localhost:8080/", {
-    //     method: "POST",
-    // })
-    // .then(response => console.log(response))
-    // .catch(error =>console.error(error));
 
 async function logBuses() {
     const response = await fetch('http://localhost:8080', {
@@ -59,36 +54,7 @@ async function logBuses() {
         console.log("not getting any data from server")
     }
 
-    const payload = JSON.parse(responseData.data);
-    // TODO: convert unix timestamp to date time
-    const payloadUpdateTimestamp = payload.header.timestamp;
-    const busesInfo = payload.entity;
-    console.log(typeof payload);
-    console.log(typeof busesInfo);
-    console.log(busesInfo);
-
-    busesInfo.forEach((hashMap, index) => {
-        console.log(`HashMap #${index + 1}: `)
-
-        for (const key in hashMap) {
-            if (hashMap.hasOwnProperty(key)) {
-                const value = hashMap[key];
-                console.log(`key: ${key}, value: ${value}`);
-            }
-        }
-    })
-}
-
-function getBusPosition() {
-
-}
-
-function getBusTrip() {
-
-}
-
-function getBusId() {
-
+    console.log(responseData.data);
 }
 
 
