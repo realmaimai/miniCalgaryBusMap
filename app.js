@@ -38,6 +38,13 @@ const map = new mapboxgl.Map({
         zoom: 11, // starting zoom
     });
 
+    const tb = (window.tb = new Threebox(
+        map,
+        map.getCanvas().getContext('webgl'),
+        {
+        defaultLights: true
+        }
+        ));
 
     // add source and layer
     map.on('load', () => {
@@ -70,12 +77,38 @@ const map = new mapboxgl.Map({
             }
         })
 
-        map.on('click', (e) => {
-            const features = map.queryRenderedFeatures(e.point, {
-                layers: ['calgary-transit-routes-line']
-            });
-
-            console.log(features);
+        map.addLayer({
+            id: 'custom-threebox-model',
+            type: 'custom',
+            renderingMode: '3d',
+            onAdd: function () {
+                const scale = 0.15;
+                const options = {
+                obj: 'model/Bus.glb',
+                type: 'glb',
+                scale: { x: scale, y: scale, z: scale },
+                units: 'meters',
+                rotation: { x: 90, y: -90, z: 0 }
+            };
+             
+            tb.loadObj(options, (model) => {
+                const transitData= map.getSource('calgary-transit-position')._data;
+                const features = transitData.features;
+                features.forEach((feature)=> {
+                    const modelInstance = model.clone();
+                    const position = feature.geometry.coordinates;
+                    const long = position[0] 
+                    const lat = position[1]
+                    modelInstance.position.set(long, lat);
+                    model.setRotation({ x: 0, y: 0, z: 241 });
+                    tb.add(modelInstance);
+                    });
+                });
+            },
+             
+            render: function () {
+                tb.update();
+            }
         })
     })
 
