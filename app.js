@@ -37,6 +37,12 @@ const map = new mapboxgl.Map({
         center: [245.943951,51.044911], // starting position [lng, lat]
         zoom: 11, // starting zoom
     });
+            
+    updateBus(map);
+
+    // setInterval(() => {
+    //     updateBus(map)
+    // }, 30 * 1000);
 
     const tb = (window.tb = new Threebox(
         map,
@@ -49,11 +55,7 @@ const map = new mapboxgl.Map({
     // add source and layer
     map.on('load', () => {
 
-        updateBus(map);
-
-        setInterval(() => {
-            updateBus(map)
-        }, 30 * 1000);
+  
 
         map.addSource('calgary-transit-routes', {
             type: 'geojson',
@@ -91,17 +93,16 @@ const map = new mapboxgl.Map({
                 rotation: { x: 90, y: -90, z: 0 }
             };
              
-            tb.loadObj(options, (model) => {
-                const transitData= map.getSource('calgary-transit-position')._data;
-                const features = transitData.features;
-                features.forEach((feature)=> {
-                    const modelInstance = model.clone();
+            const transitData= map.getSource('calgary-transit-position');
+            const features = transitData._data.features;
+            features.forEach((feature)=> {
+                tb.loadObj(options, (model) => {
                     const position = feature.geometry.coordinates;
-                    const long = position[0] 
-                    const lat = position[1]
-                    modelInstance.position.set(long, lat);
-                    model.setRotation({ x: 0, y: 0, z: 241 });
-                    tb.add(modelInstance);
+                    position.push(-1)
+                    console.log(position)
+                    model.setCoords(position);
+                    console.log(model)
+                    tb.add(model);
                     });
                 });
             },
@@ -110,6 +111,7 @@ const map = new mapboxgl.Map({
                 tb.update();
             }
         })
+
     })
 
 
