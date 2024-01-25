@@ -1,5 +1,6 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w';
 
+const theme = determineTheme();
 
 async function updateBus(map) {
     try {
@@ -13,19 +14,20 @@ async function updateBus(map) {
                 // data: 'data/bus.geojson',
                 data: busGeoJson,
             }) 
-
-            map.addLayer({
-                id: 'calgary-transit-position-point',
-                type: 'circle',
-                source: 'calgary-transit-position',
-                paint: {
-                    'circle-radius': 6,
-                    'circle-stroke-color': '#EEEEEE',
-                    'circle-stroke-width': 1,
-                    'circle-color': '#223b53'
-                }
-            })
         }
+
+        map.loadImage('static/red-bus.png', (error, image) => {
+            if (error) throw error;
+            map.addImage('red-bus', image);
+            });
+
+        map.loadImage('static/gray-bus.png', (error, image) => {
+            if (error) throw error;
+            map.addImage('gray-bus', image);
+            });
+
+        mapAddLayer(map, theme)
+        
     } catch(error) {
         console.log("update bus error:", error);
     }
@@ -34,16 +36,15 @@ async function updateBus(map) {
 const map = new mapboxgl.Map({
         container: 'map', // container ID
         style: 'mapbox://styles/yulezh/clrkd76ck001301pqhgku01rq/draft', // style URL
-        center: [245.943951,51.044911], // starting position [lng, lat]
-        zoom: 11, // starting zoom
+        center: [-114.062925,51.044312], // starting position [lng, lat]
+        zoom: 15.5, // starting zoom
+        pitch: 45,
     });
-            
+
+
     updateBus(map);
-
-    // setInterval(() => {
-    //     updateBus(map)
-    // }, 30 * 1000);
-
+    
+    // create threebox instance
     const tb = (window.tb = new Threebox(
         map,
         map.getCanvas().getContext('webgl'),
@@ -52,45 +53,26 @@ const map = new mapboxgl.Map({
         }
         ));
 
-    // add source and layer
+    // load map
     map.on('load', () => {
 
-  
 
-        map.addSource('calgary-transit-routes', {
-            type: 'geojson',
-            data: 'data/calgary-transit-routes.geojson',
-        })
+        determineLightPreset(theme.preset);
 
-
-        map.addLayer({
-            id: 'calgary-transit-routes-line',
-            type: 'line',
-            source: 'calgary-transit-routes',
-            paint: {
-                // 'line-blur': 5,
-                'line-color': [
-                    'match', // matches some scenarios
-                    ['get', 'route_short_name'], // get the value of geoJson
-                    '68', // if route_short_name == 68
-                    'red', // goes red 
-                    'steelblue' // default is steelblue
-                ]
-            }
-        })
-
+        // add 3d bus model
         map.addLayer({
             id: 'custom-threebox-model',
             type: 'custom',
             renderingMode: '3d',
             onAdd: function () {
-                const scale = 0.15;
+                const scale = 0.2;
                 const options = {
-                obj: 'model/Bus.glb',
+                obj: 'static/model/Bus.glb',
                 type: 'glb',
                 scale: { x: scale, y: scale, z: scale },
                 units: 'meters',
-                rotation: { x: 90, y: -90, z: 0 }
+                rotation: { x: 90, y: -90, z: 0 },
+                anchor: 'center'
             };
              
             const transitData= map.getSource('calgary-transit-position');
@@ -99,9 +81,7 @@ const map = new mapboxgl.Map({
                 tb.loadObj(options, (model) => {
                     const position = feature.geometry.coordinates;
                     position.push(-1)
-                    console.log(position)
                     model.setCoords(position);
-                    console.log(model)
                     tb.add(model);
                     });
                 });
@@ -131,4 +111,80 @@ async function logBuses() {
 
     const busGeoJson = responseData.data;
     return busGeoJson;
+}
+
+function determineTheme() {
+    const currentTime = new Date();
+    const currentHour = currentTime.getHours();
+    let theme = {};
+    switch (true) {
+        case (currentHour < 5 || currentHour >= 21):
+            theme = {
+                'theme': 'dark',
+                'preset': 'night'
+            }
+            return theme;
+        case (currentHour < 8 && currentHour >= 5):
+            theme = {
+                'theme': 'dark',
+                'preset': 'dawn'
+            }
+            return theme;
+        case (currentHour < 16 && currentHour >=  8):
+            theme = {
+                'theme': 'light',
+                'preset': 'day'
+            }
+            return theme;
+        case (currentHour < 21 && currentHour >= 16):
+            theme = {
+                'theme': 'light',
+                'preset': 'day'
+            }
+            return theme;
+    }
+}
+
+function determineLightPreset(preset) {
+    switch (true) {
+        case (preset== 'night'):
+          map.setConfigProperty('basemap', 'lightPreset', 'night');
+          break;
+        case (preset== 'dawn'):
+          map.setConfigProperty('basemap', 'lightPreset', 'dawn');
+          break;
+        case (preset == 'day'):
+          map.setConfigProperty('basemap', 'lightPreset', 'day');
+          break;
+        case (preset == 'dusk'):
+          map.setConfigProperty('basemap', 'lightPreset', 'dusk');
+          break;
+      }
+}
+
+function mapAddLayer(map, theme) {
+            if (theme.theme == 'light') {
+                map.addLayer({
+                    'id': 'calgary-transit-position-point',
+                    'type': 'symbol',
+                    'source': 'calgary-transit-position', // reference the data source
+                    'layout': {
+                        'icon-image': 'red-bus', // reference the image
+                        'icon-size': 0.5
+                    }
+                })
+            } else {
+                map.addLayer({
+                    'id': 'calgary-transit-position-point',
+                    'type': 'symbol',
+                    'source': 'calgary-transit-position', // reference the data source
+                    'layout': {
+                        'icon-image': 'gray-bus', // reference the image
+                        'icon-size': 0.25
+                    }
+            })
+        }
+    }
+function determineWeather(){
+    return
 }
