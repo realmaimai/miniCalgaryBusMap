@@ -1,5 +1,36 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w';
-const busGeoJson = await logBuses();
+
+
+async function updateBus(map) {
+    try {
+        const busGeoJson = await logBuses();
+        
+        if (map.getSource('calgary-transit-position')) {
+            map.getSource('calgary-transit-position').setData(busGeoJson);
+        } else {
+            map.addSource('calgary-transit-position', {
+                type: 'geojson',
+                // data: 'data/bus.geojson',
+                data: busGeoJson,
+            }) 
+
+            map.addLayer({
+                id: 'calgary-transit-position-point',
+                type: 'circle',
+                source: 'calgary-transit-position',
+                paint: {
+                    'circle-radius': 6,
+                    'circle-stroke-color': '#EEEEEE',
+                    'circle-stroke-width': 1,
+                    'circle-color': '#223b53'
+                }
+            })
+        }
+    } catch(error) {
+        console.log("update bus error:", error);
+    }
+}
+
 const map = new mapboxgl.Map({
         container: 'map', // container ID
         style: 'mapbox://styles/yulezh/clrkd76ck001301pqhgku01rq/draft', // style URL
@@ -10,6 +41,12 @@ const map = new mapboxgl.Map({
 
     // add source and layer
     map.on('load', () => {
+
+        updateBus(map);
+
+        setInterval(() => {
+            updateBus(map)
+        }, 30 * 1000);
 
         map.addSource('calgary-transit-routes', {
             type: 'geojson',
@@ -33,24 +70,6 @@ const map = new mapboxgl.Map({
             }
         })
 
-        map.addSource('calgary-transit-position', {
-            type: 'geojson',
-            // data: 'data/bus.geojson',
-            data: busGeoJson,
-        })
-
-        map.addLayer({
-            id: 'calgary-transit-position-point',
-            type: 'circle',
-            source: 'calgary-transit-position',
-            paint: {
-                'circle-radius': 6,
-                'circle-stroke-color': '#EEEEEE',
-                'circle-stroke-width': 1,
-                'circle-color': '#223b53'
-            }
-        })
-            
         map.on('click', (e) => {
             const features = map.queryRenderedFeatures(e.point, {
                 layers: ['calgary-transit-routes-line']
@@ -78,4 +97,3 @@ async function logBuses() {
     const busGeoJson = responseData.data;
     return busGeoJson;
 }
-
