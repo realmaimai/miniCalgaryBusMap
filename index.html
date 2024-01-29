@@ -5,16 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css' rel='stylesheet' />
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/static/favicon.png"/>
+    <title>Mini Calgary BusMap</title>
 </head>
 <style>
-    body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
 </style>
 <body>
     <script src="https://cdn.jsdelivr.net/gh/jscastro76/threebox@v.2.2.2/dist/threebox.min.js" type="text/javascript"></script>
     <link href="https://cdn.jsdelivr.net/gh/jscastro76/threebox@v.2.2.2/dist/threebox.css" rel="stylesheet">
     <div id='map' style='min-height: 100vh; min-width: 100vh'></div>
+    <div class="map-overlay top">
+        <div class="map-overlay-inner">
+            <fieldset>
+                <label for="showPointOfInterestLabels">POI labels</label>
+                <input type="checkbox" id="showPointOfInterestLabels" checked="">
+            </fieldset>
+            <fieldset>
+                <label for="showRoadLabels">Road labels</label>
+                <input type="checkbox" id="showRoadLabels" checked="">
+            </fieldset>
+            <fieldset>
+                <label for="showTransitLabels">Transit labels</label>
+                <input type="checkbox" id="showTransitLabels" checked="">
+            </fieldset>
+        </div>
+    </div>
     <script type="module" src="app.js"></script>
 </body>
 </html>

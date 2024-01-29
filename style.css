@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.popup {
+    font:
+        12px/20px 'Lora',
+        sans-serif;
+}
+
+.mapboxgl-popup-content {
+    background-color: #fff;
+    box-shadow: 5px 5px red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.map-overlay {
+    font:
+        12px/20px 'Lora',
+        sans-serif;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.map-overlay .map-overlay-inner {
+    background-color: #fff;
+    box-shadow: 5px 5px red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mapboxgl-ctrl-group:not(:empty) {
+    box-shadow: 5px 5px red;
+}
+
+.map-overlay-inner fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.map-overlay-inner label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.map-overlay-inner .select-fieldset {
+    display: block;
+}
+
+.map-overlay-inner .select-fieldset label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.map-overlay-inner .select-fieldset select {
+    width: 100%;
+}
