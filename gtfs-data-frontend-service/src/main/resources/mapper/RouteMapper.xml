@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minicalgary.gtfsdatafrontendservice.Mappers.RouteMapper">
+    <insert id="insert">
+        insert into
+        route(route_id, route_short_name, route_long_name
+        , route_desc, route_type, route_url, route_color, route_text_color)
+        values (#{routeID},#{routeShortName},#{routeLongName},#{routeDesc},#{routeType},#{routeUrl},#{routeColor},#{routeTextColor})
+    </insert>
+
+    <select id="getBusesInfoByID" resultType="com.minicalgary.gtfsdatafrontendservice.Entities.Route">
+        SELECT trip.direction, route.route_id, route.route_short_name, route.route_long_name
+        FROM trip
+        JOIN route ON route.route_id = trip.route_id
+        WHERE trip.id = #{tripID}
+    </select>
+</mapper>

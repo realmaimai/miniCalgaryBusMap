@@ -1,0 +1,14 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+spring:
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+  datasource:
+    url: jdbc:mysql://localhost:3306/
+    username: root
+    password: Wc123123
+    driver-class-name: com.mysql.cj.jdbc.Driver
