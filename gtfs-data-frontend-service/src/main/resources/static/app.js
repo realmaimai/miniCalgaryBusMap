@@ -1,11 +1,10 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w';
-const weatherKey = 'db804e4c5e9a18e8fc19bf06c3680a05';
-
+import config from './config.js'
+mapboxgl.accessToken = config.mapboxAccessToken;
 let theme = determineTheme();
 
 let map = new mapboxgl.Map({
         container: 'map', // container ID
-        style: 'mapbox://styles/yulezh/clrkd76ck001301pqhgku01rq/draft', // style URL
+        style: config.mapboxStyle, // style URL
         center: [-114.062925,51.044312], // starting position [lng, lat]
         zoom: 15.5, // starting zoom
         pitch: 45,
@@ -287,7 +286,7 @@ function getClock() {
 
 function getWeather() {
     let weatherData;
-    fetch("https://api.openweathermap.org/data/2.5/weather?q=calgary&appid=" + weatherKey)
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=calgary&appid=" + config.openWeatherToken)
     .then((response) => response.json())
     .then((data) => weatherData = data)
 
