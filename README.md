@@ -1,14 +1,16 @@
 # MiniCalgaryBusMap
 
 MiniCalgaryBusMap is a dynamic, real-time bus map application that tracks and showcases the current locations of buses within Calgary. By utilizing relevant data provided by the City of Calgary, this application combines the power of JavaScript and Java to deliver an interactive and user-friendly map interface. Users can easily monitor bus movements, and access transportation information through this application.
-Inspired by: ![minitokyo3d.com](minitokyo3d.com)
+Inspired by: [Mini tokyo 3d](minitokyo3d.com "really really cool realtime map for metro in tokyo!!")
 
-![miniCalgaryBusMap Demo](frontend/img/Screenshot%202024-02-01%20at%2003.13.43.png)
+![miniCalgaryBusMap Demo overview] (frontend/img/Screenshot 2024-02-01 at 15.23.18.png)
+![miniCalgaryBusMap Demo at day] (frontend/img/Screenshot 2024-02-01 at 15.22.55.png)
+![miniCalgaryBusMap Demo at night](frontend/img/Screenshot%202024-02-01%20at%2003.13.43.png)
 
 ## Features
 - Real-time bus location tracking in Calgary
 - Interactive bus map using Mapbox
-- Data sourced from the City of Calgary
+- Data sourced from the City of Calgary (The GTFS data source refreshes and updates every 30 seconds for up-to-date information.)
 - The map theme and light preset now adapt dynamically based on the current time
 
 ## Technologies
@@ -56,9 +58,9 @@ npm install
 
 ```
 const config = {
-    mapboxAccessToken: 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w',
-    openWeatherToken: 'e785eb712b60c70bdb3f905c6e3cb2de',
-    mapboxStyle: 'mapbox://styles/yulezh/clrkd76ck001301pqhgku01rq/draft',
+    mapboxAccessToken: your mapbox key,
+    openWeatherToken: your open weather key,
+    mapboxStyle: your mapbox style link,
 }
 export default config;
 ```
