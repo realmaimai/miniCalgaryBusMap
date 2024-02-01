@@ -7,7 +7,5 @@ import org.springframework.stereotype.Component;
 @Mapper
 @Component
 public interface RouteMapper {
-    void insert(Route route);
-
     Route getBusesInfoByID(String tripID);
 }

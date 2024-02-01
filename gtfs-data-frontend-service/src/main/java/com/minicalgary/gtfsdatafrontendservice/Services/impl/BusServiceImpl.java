@@ -50,7 +50,7 @@ public class BusServiceImpl implements BusService {
             JsonObject busPosition = (JsonObject) busJsonObject.get("position");
 
             // get bus information
-            JsonElement tripID=  busTrip.get("tripId");
+            String tripID=  busTrip.get("tripId").getAsString();
             double busLong =  busPosition.get("longitude").getAsDouble();
             double busLat =  busPosition.get("latitude").getAsDouble();
             JsonArray coordinatesArray = new JsonArray();
@@ -71,10 +71,12 @@ public class BusServiceImpl implements BusService {
             JsonObject properties = new JsonObject();
             properties.addProperty("update_time", busUpdateTimeStr);
 
-            Route busByID = routeMapper.getBusesInfoByID(String.valueOf(tripID));
-            properties.addProperty("route_short_name", busByID.getRouteShortName());
-            properties.addProperty("route_long_name", busByID.getRouteLongName());
-            properties.addProperty("direction", busByID.getDirection());
+            Route busByID = routeMapper.getBusesInfoByID(tripID);
+            if (busByID != null) {
+                properties.addProperty("route_short_name", busByID.getRouteShortName());
+                properties.addProperty("route_long_name", busByID.getRouteLongName());
+                properties.addProperty("direction", busByID.getDirection());
+            }
 
             // feature
             JsonObject feature = new JsonObject();

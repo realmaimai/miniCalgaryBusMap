@@ -42,7 +42,7 @@ map.on('load', () => {
         onAdd: function () {
             const scale = 2000;
             const options = {
-            obj: 'static/model/red-bus.glb',
+            obj: 'model/red-bus.glb',
             type: 'glb',
             scale: { x: scale, y: scale, z: scale },
             units: 'meters',
@@ -85,7 +85,13 @@ map.on('load', () => {
                 // Create a popup instance
                 const popup = new mapboxgl.Popup()
                 .setLngLat(feature.geometry.coordinates)
-                .setHTML('<h3 class="popup">' + feature.properties.title + '</h3><p class="popup">' + 'Update time: ' + feature.properties.update_time + '</p>')
+                .setHTML('<h3 class="popup">' + 
+                feature.properties.route_short_name + ' ' + 
+                feature.properties.route_long_name + 
+                '</h3><p class="popup">' + 
+                'Direction: ' + feature.properties.direction +  '</p>' + 
+                '</h3><p class="popup">' + 
+                'Update time: ' + feature.properties.update_time +  '</p>')
                 .addTo(map);
             }
             });
@@ -99,20 +105,22 @@ async function updateBus(map) {
         
         if (map.getSource('calgary-transit-position')) {
             map.getSource('calgary-transit-position').setData(busGeoJson);
+            console.log("updated transit-position")
         } else {
             map.addSource('calgary-transit-position', {
                 type: 'geojson',
                 // data: 'data/bus.geojson',
                 data: busGeoJson,
             }) 
+            console.log("added transit-position")
         }
 
-        map.loadImage('static/red-bus.png', (error, image) => {
+        map.loadImage('img/red-bus.png', (error, image) => {
             if (error) throw error;
             map.addImage('red-bus', image);
             });
 
-        map.loadImage('static/gray-bus.png', (error, image) => {
+        map.loadImage('img/gray-bus.png', (error, image) => {
             if (error) throw error;
             map.addImage('gray-bus', image);
             });
