@@ -4,9 +4,9 @@ MiniCalgaryBusMap is a dynamic, real-time bus map application that tracks and sh
 
 Inspired by: [Mini tokyo 3d](minitokyo3d.com "really really cool realtime map for metro in tokyo!!")
 
-![miniCalgaryBusMap Demo overview] (frontend/img/Screenshot%2024-02-01%at%15.23.18.png)
-![miniCalgaryBusMap Demo at day] (frontend/img/Screenshot%2024-02-01%at%15.22.55.png)
-![miniCalgaryBusMap Demo at night](frontend/img/Screenshot%202024-02-01%20at%2003.13.43.png)
+![miniCalgaryBusMap Demo overview](frontend/img/overview-sc.png)
+![miniCalgaryBusMap Demo at day](frontend/img/daytime-sc.png)
+![miniCalgaryBusMap Demo at night](frontend/img/nighttime-sc.png)
 
 ## Features
 - Real-time bus location tracking in Calgary
