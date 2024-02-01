@@ -48,11 +48,14 @@ npm install
 
 
 4. Set your API keys
-- Add your API keys in the "frontend/config.js" as follows:
+- Create a new config file as "frontend/config.js" and add your API keys as follows:
 
-mapboxAccessToken: your api key,
-openWeatherToken: your api key,
-mapboxStyle: your api key,
+const config = {
+    mapboxAccessToken: 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w',
+    openWeatherToken: 'e785eb712b60c70bdb3f905c6e3cb2de',
+    mapboxStyle: 'mapbox://styles/yulezh/clrkd76ck001301pqhgku01rq/draft',
+}
+export default config;
 
 
 
