@@ -1,2 +1,2 @@
 .DS_Store
-gtfs-data-frontend-service/src/main/resources/static/config.js
+frontend/config.js
