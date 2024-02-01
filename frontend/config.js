@@ -1,6 +1,6 @@
 const config = {
     mapboxAccessToken: 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w',
-    openWeatherToken: 'db804e4c5e9a18e8fc19bf06c3680a05',
+    openWeatherToken: 'e785eb712b60c70bdb3f905c6e3cb2de',
     mapboxStyle: 'mapbox://styles/yulezh/clrkd76ck001301pqhgku01rq/draft',
 }
 

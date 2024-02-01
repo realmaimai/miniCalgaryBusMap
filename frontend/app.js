@@ -20,7 +20,6 @@ const updateBusPromise = new Promise((resolve) => {
     updateBus(map, resolve);
 });
 
-updateBus(map);
 map.addControl(new mapboxgl.NavigationControl());
 getWeather();
 
@@ -37,7 +36,6 @@ const tb = (window.tb = new Threebox(
 map.on('load', () => {
 
     updateBusPromise.then(() => {
-        map.setConfigProperty('basemap', 'showTransitLabel', false)
         determineLightPreset(theme.preset);
     
         // add 3d bus model
@@ -164,6 +162,8 @@ async function logBuses() {
     }
 
     const busGeoJson = responseData.data;
+    document.querySelector('.currentBuses').innerHTML = 'At present, there are ' + busGeoJson.features.length + ' buses operating in Calgary.'
+    
     return busGeoJson;
 }
 
@@ -284,19 +284,23 @@ function getClock() {
     document.querySelector("#secs").innerHTML = s
 } let interval = setInterval(getClock,400)
 
-function getWeather() {
-    let weatherData;
-    fetch("https://api.openweathermap.org/data/2.5/weather?q=calgary&appid=" + config.openWeatherToken)
+async function getWeather() {
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=calgary&units=metric&appid=" + config.openWeatherToken)
     .then((response) => response.json())
-    .then((data) => weatherData = data)
+    .then((data) => {
+        const weatherData = data;
 
-    const {description} = weatherData.weather[0].get("description")
-    const {temp}  = weatherData.main;
-    const {speed}  = weatherData.wind;
+        const { description } = weatherData.weather[0];
+        const { temp } = weatherData.main;
+        const { speed } = weatherData.wind;
 
-    document.querySelector("#temp").innerHTML = temp
-    document.querySelector("#desc").innerHTML = description
-    document.querySelector("#windSpeed").innerHTML = speed
+        document.querySelector("#temp").innerHTML = temp + " °C";
+        document.querySelector("#desc").innerHTML = description;
+        document.querySelector("#windSpeed").innerHTML = speed + " m/s";
+    })
+    .catch((error) => {
+        console.log("Error fetching weather data:", error);
+    });
 }
 
 document.querySelectorAll('.map-overlay-inner input[type="checkbox"]')
