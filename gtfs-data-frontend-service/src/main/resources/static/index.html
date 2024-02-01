@@ -18,8 +18,25 @@
     <script src="https://cdn.jsdelivr.net/gh/jscastro76/threebox@v.2.2.2/dist/threebox.min.js" type="text/javascript"></script>
     <link href="https://cdn.jsdelivr.net/gh/jscastro76/threebox@v.2.2.2/dist/threebox.css" rel="stylesheet">
     <div id='map' style='min-height: 100vh; min-width: 100vh'></div>
-    <div class="map-overlay top">
+    <div class="map-overlay top" data-tilt >
         <div class="map-overlay-inner">
+            <div class="clock">
+                <ul>
+                    <li id="hours">00</li>
+                    <li id="point">:</li>
+                    <li id="mins">00</li>
+                    <li id="point">:</li>
+                    <li id="secs">00</li>
+                </ul>
+            </div>
+            <div class="weather">
+                <div id="temp">51°C</div>
+                <div id="descDiv">
+                    <div id="desc">Sunny</div>
+                    <div id="windSpeed">Wind Speed: 5.2</div>
+                </div>
+            </div>
+            <hr>
             <fieldset>
                 <label for="showPointOfInterestLabels">POI labels</label>
                 <input type="checkbox" id="showPointOfInterestLabels" checked="">
@@ -35,5 +52,6 @@
         </div>
     </div>
     <script type="module" src="app.js"></script>
+    <script src="tilt-js.js"></script>
 </body>
 </html>

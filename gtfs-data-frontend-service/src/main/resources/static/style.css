@@ -70,3 +70,32 @@ body {
 .map-overlay-inner .select-fieldset select {
     width: 100%;
 }
+
+.clock ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+#hours,
+#mins,
+#secs {
+    font:
+        20px 'Lora',
+        sans-serif;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+#temp {
+    font:
+        20px 'Lora',
+        sans-serif;
+}

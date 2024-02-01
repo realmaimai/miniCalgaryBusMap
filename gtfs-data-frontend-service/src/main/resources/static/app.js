@@ -1,4 +1,5 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoieXVsZXpoIiwiYSI6ImNscmtkMmR0YjBkY2gya28yM3ZobXp2eTQifQ.7zqzJNm7ZrAJdzJNDpEt5w';
+const weatherKey = 'db804e4c5e9a18e8fc19bf06c3680a05';
 
 let theme = determineTheme();
 
@@ -16,8 +17,13 @@ let map = new mapboxgl.Map({
           ]
     });
 
+const updateBusPromise = new Promise((resolve) => {
+    updateBus(map, resolve);
+});
+
 updateBus(map);
 map.addControl(new mapboxgl.NavigationControl());
+getWeather();
 
 // create threebox instance
 const tb = (window.tb = new Threebox(
@@ -31,104 +37,117 @@ const tb = (window.tb = new Threebox(
 // load map
 map.on('load', () => {
 
-    map.setConfigProperty('basemap', 'showTransitLabel', false)
-    determineLightPreset(theme.preset);
+    updateBusPromise.then(() => {
+        map.setConfigProperty('basemap', 'showTransitLabel', false)
+        determineLightPreset(theme.preset);
     
-    // add 3d bus model
-    map.addLayer({
-        id: 'bus-3d-model',
-        type: 'custom',
-        renderingMode: '3d',
-        onAdd: function () {
-            const scale = 2000;
-            const options = {
-            obj: 'model/red-bus.glb',
-            type: 'glb',
-            scale: { x: scale, y: scale, z: scale },
-            units: 'meters',
-            rotation: { x: 90, y: -90, z: 0 },
-            anchor: 'center'
-        };
-            
-        const transitData= map.getSource('calgary-transit-position');
-        const features = transitData._data.features;
-        features.forEach((feature)=> {
-            tb.loadObj(options, (model) => {
-                const position = feature.geometry.coordinates;
-                position.push(1);
-                model.setCoords(position);
-                tb.add(model);
+        // add 3d bus model
+        map.addLayer({
+            id: 'bus-3d-model',
+            type: 'custom',
+            renderingMode: '3d',
+            onAdd: function () {
+                const scale = 2000;
+                const options = {
+                obj: 'model/red-bus.glb',
+                type: 'glb',
+                scale: { x: scale, y: scale, z: scale },
+                units: 'meters',
+                rotation: { x: 90, y: -90, z: 0 },
+                anchor: 'center'
+            };
+                
+            const transitData= map.getSource('calgary-transit-position');
+            const features = transitData._data.features;
+            features.forEach((feature)=> {
+                tb.loadObj(options, (model) => {
+                    const position = feature.geometry.coordinates;
+                    position.push(1);
+                    model.setCoords(position);
+                    tb.add(model);
+                    });
                 });
-            });
-        },
-            
-        render: function () {
-            tb.update();
-        }
-    })
-    map.setLayerZoomRange('bus-3d-model', 14,30);
-
-    const layers = map.getStyle().layers
-    const layerList = [];
-    layers.forEach(element => {
-        layerList.push(element.id)
-    })
-    
-    layerList.forEach(layerName => {
-        map.on('click', layerName, function (e) {
-            // Retrieve the features under the clicked location
-            const features = map.queryRenderedFeatures(e.point);
-            
-            // If there are any features, create a popup and display the information
-            if (features.length > 0) {
-                const feature = features[0]; // Get the first feature
-                // Create a popup instance
-                const popup = new mapboxgl.Popup()
-                .setLngLat(feature.geometry.coordinates)
-                .setHTML('<h3 class="popup">' + 
-                feature.properties.route_short_name + ' ' + 
-                feature.properties.route_long_name + 
-                '</h3><p class="popup">' + 
-                'Direction: ' + feature.properties.direction +  '</p>' + 
-                '</h3><p class="popup">' + 
-                'Update time: ' + feature.properties.update_time +  '</p>')
-                .addTo(map);
+            },
+                
+            render: function () {
+                tb.update();
             }
-            });
+        })
+        map.setLayerZoomRange('bus-3d-model', 14,30);
+
+        const layers = map.getStyle().layers
+        const layerList = [];
+        layers.forEach(element => {
+            layerList.push(element.id)
+        })
+        
+        layerList.forEach(layerName => {
+            map.on('click', layerName, function (e) {
+                // Retrieve the features under the clicked location
+                const features = map.queryRenderedFeatures(e.point);
+                
+                // If there are any features, create a popup and display the information
+                if (features.length > 0) {
+                    const feature = features[0]; // Get the first feature
+                    if (feature.properties.route_short_name != null) {
+                        // Create a popup instance
+                        const popup = new mapboxgl.Popup()
+                        .setLngLat(feature.geometry.coordinates)
+                        .setHTML('<h3 class="popup">' + 
+                        feature.properties.route_short_name + ' ' + 
+                        feature.properties.route_long_name + 
+                        '</h3><p class="popup">' + 
+                        'Direction: ' + feature.properties.direction +  '</p>' + 
+                        '</h3><p class="popup">' + 
+                        'Update time: ' + feature.properties.update_time +  '</p>')
+                        .addTo(map);
+                    } else {
+                        const popup = new mapboxgl.Popup()
+                        .setLngLat(feature.geometry.coordinates)
+                        .setHTML('<h3 class="popup">' + 
+                        'Apologies, we are unable to retrieve the bus information due to insufficient data.' +
+                        '</h3><p class="popup">')
+                        .addTo(map); 
+                    }
+                }
+                });
+        })
     })
 })
 
 
-async function updateBus(map) {
+async function updateBus(map, resolve) {
     try {
         const busGeoJson = await logBuses();
-        
+
         if (map.getSource('calgary-transit-position')) {
             map.getSource('calgary-transit-position').setData(busGeoJson);
-            console.log("updated transit-position")
+            console.log("Updated transit-position");
         } else {
             map.addSource('calgary-transit-position', {
                 type: 'geojson',
-                // data: 'data/bus.geojson',
                 data: busGeoJson,
-            }) 
-            console.log("added transit-position")
+            });
+            console.log("Added transit-position");
         }
 
-        map.loadImage('img/red-bus.png', (error, image) => {
-            if (error) throw error;
-            map.addImage('red-bus', image);
+        if (theme.theme == "dark") {
+            map.loadImage('img/gray-bus.png', (error, image) => {
+                if (error) throw error;
+                map.addImage('gray-bus', image);
             });
-
-        map.loadImage('img/gray-bus.png', (error, image) => {
-            if (error) throw error;
-            map.addImage('gray-bus', image);
+        } else {
+            map.loadImage('img/red-bus.png', (error, image) => {
+                if (error) throw error;
+                map.addImage('red-bus', image);
             });
+        }
 
-        mapAddLayer(map, theme)
-        
-    } catch(error) {
-        console.log("update bus error:", error);
+        mapAddLayer(map, theme);
+
+        resolve(); // resolve the promise to indicate that updateBus has finished loading
+    } catch (error) {
+        console.log("Update bus error:", error);
     }
 }
 
@@ -250,6 +269,36 @@ function mapAddLayer(map, theme) {
                 map.setLayerZoomRange('calgary-transit-position-under-dark', 14,22);
         }
     }
+
+function getClock() {
+    let today = new Date;
+    let h =  today.getHours()
+    let m= today.getMinutes();
+    let s= today.getSeconds();
+
+    h = h<10? "0" + h : h;
+    m = m<10? "0" + m : m;
+    s = s<10? "0" + s : s;
+
+    document.querySelector("#hours").innerHTML = h
+    document.querySelector("#mins").innerHTML = m
+    document.querySelector("#secs").innerHTML = s
+} let interval = setInterval(getClock,400)
+
+function getWeather() {
+    let weatherData;
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=calgary&appid=" + weatherKey)
+    .then((response) => response.json())
+    .then((data) => weatherData = data)
+
+    const {description} = weatherData.weather[0].get("description")
+    const {temp}  = weatherData.main;
+    const {speed}  = weatherData.wind;
+
+    document.querySelector("#temp").innerHTML = temp
+    document.querySelector("#desc").innerHTML = description
+    document.querySelector("#windSpeed").innerHTML = speed
+}
 
 document.querySelectorAll('.map-overlay-inner input[type="checkbox"]')
         .forEach((checkbox) => {
