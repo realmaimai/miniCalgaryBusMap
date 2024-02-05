@@ -8,7 +8,7 @@ spring:
     converters:
       preferred-json-mapper: gson
   datasource:
-    url: jdbc:mysql://localhost:3306/calgary_bus_infomation
+    url: jdbc:mysql://roundhouse.proxy.rlwy.net:49047/calgary_bus_infomation
     username: root
-    password: Wc123123
+    password: EDHhe54cbgh-41B36e3c6E62G2afc4Ea
     driver-class-name: com.mysql.cj.jdbc.Driver
