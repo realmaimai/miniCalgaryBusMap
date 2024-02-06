@@ -32,8 +32,6 @@ public class BusServiceImpl implements BusService {
         JsonElement jsonElement = gson.fromJson(busInfo, JsonElement.class);
         // original info json
         JsonObject busInfoJson= jsonElement.getAsJsonObject();
-        JsonObject header = (JsonObject) busInfoJson.get("header");
-        JsonElement updateTimestamp= header.get("timestamp");
         JsonArray entities = (JsonArray) busInfoJson.get("entity");
 
         // return geoJson
@@ -76,18 +74,18 @@ public class BusServiceImpl implements BusService {
                 properties.addProperty("route_short_name", busByID.getRouteShortName());
                 properties.addProperty("route_long_name", busByID.getRouteLongName());
                 properties.addProperty("direction", busByID.getDirection());
+                // feature
+                JsonObject feature = new JsonObject();
+                feature.addProperty("type", "Feature");
+                feature.add("properties", properties);
+                feature.add("geometry", geometry);
+
+                features.add(feature);
             }
-
-            // feature
-            JsonObject feature = new JsonObject();
-            feature.addProperty("type", "Feature");
-            feature.add("properties", properties);
-            feature.add("geometry", geometry);
-
-            features.add(feature);
         }
 
         busGeoJson.add("features", features);
+        log.info(String.valueOf(busGeoJson));
 
         return busGeoJson;
     }
