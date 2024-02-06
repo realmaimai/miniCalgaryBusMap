@@ -149,7 +149,7 @@ async function updateBus(map, resolve) {
 }
 
 async function logBuses() {
-    const response = await fetch('https://minicalgarybusmap-production.up.railway.app:8080', {
+    const response = await fetch('https://minicalgarybusmap-production.up.railway.app', {
         method: "POST",
         headers: {
             "content-type": 'application/json'
