@@ -149,7 +149,7 @@ async function updateBus(map, resolve) {
 }
 
 async function logBuses() {
-    const response = await fetch('https://roundhouse.proxy.rlwy.net:33710', {
+    const response = await fetch('https://minicalgarybusmap-production.up.railway.app:8080', {
         method: "POST",
         headers: {
             "content-type": 'application/json'
