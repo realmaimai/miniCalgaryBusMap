@@ -149,7 +149,7 @@ async function updateBus(map, resolve) {
 }
 
 async function logBuses() {
-    const response = await fetch('http://roundhouse.proxy.rlwy.net:33710', {
+    const response = await fetch('https://roundhouse.proxy.rlwy.net:33710', {
         method: "POST",
         headers: {
             "content-type": 'application/json'
