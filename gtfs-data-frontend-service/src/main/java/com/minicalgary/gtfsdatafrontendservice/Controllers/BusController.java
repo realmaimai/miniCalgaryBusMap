@@ -24,6 +24,7 @@ public class BusController {
     public Result<JsonObject> passBusInfo() throws Exception {
         log.info("passing bus info");
         JsonObject busInfo = busService.getBus();
+
         return Result.success(busInfo);
     }
 }
