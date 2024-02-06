@@ -83,9 +83,7 @@ public class BusServiceImpl implements BusService {
                 features.add(feature);
             }
         }
-
-        busGeoJson.add("features", features);
-        log.info(String.valueOf(busGeoJson));
+        log.info(String.valueOf(features.size()));
 
         return busGeoJson;
     }
