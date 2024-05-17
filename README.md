@@ -36,7 +36,7 @@ To set up miniCalgaryBusMap on your local machine, follow these instructions:
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/miniCalgaryBusMap.git
+git clone https://github.com/realmaimai/miniCalgaryBusMap.git
 ```
 
 
